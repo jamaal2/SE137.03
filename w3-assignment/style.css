@@ -1,0 +1,70 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    grid-template-areas:
+      "bio hobbies"
+      "bio education";
+  }
+  
+  .bio-content {
+    border-radius: 25px;
+    background-color: #FFF4F4;
+    padding: 20px;
+    grid-area: bio;
+    background-image: url('images/s.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .hobbies {
+    border-radius: 25px;
+    background-color: #FFF4F4;
+    padding: 20px;
+    grid-area: hobbies;
+    margin-bottom: -50px;
+    background-image: url('images/s.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+  
+  .education {
+    border-radius: 25px;
+    background-color: #FFF4F4;
+    padding: 20px;
+    grid-area: education;
+    background-image: url('images/s.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .bio-content h2,
+  .hobbies h2,
+  .education h2 {
+    margin-top: 0;
+  }
+  
+  .hobbies ul,
+  .education ul {
+    margin-top: 0;
+    padding-left: 20px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: #007BFF;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
