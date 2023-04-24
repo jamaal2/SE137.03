@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css?family=Teko");
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Rock Salt");
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+html{
+    height: 100%;
+}
+
+body{ 
+    min-height: 100%;
+    width: 1820px;
+    background-color: #282828;
+    margin:0;
+}
+
+#main{
+    display: grid;
+    grid-template-areas:"head head head head head"
+                        "banner banner banner banner farr"
+                        "left1 left1 right1 right1 farr"
+                        "foot foot foot foot foot";
+} 
+
+header{
+    grid-area: head;
+    background-color: #070707;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    width: 1820px;
+}
+
+#youtube{
+    width: 60px;
+    height: 60px;
+    margin: 21px 0 19px 0;
+}
+
+#snapchat{
+    width: 60px;
+    height: 60px;
+    margin: 21px 12px 19px 13px;
+}
+
+#twitter{
+    height: 69px;
+    width: 69px;
+    margin: 16px 41px 15px 0;
+}
+
+h1{
+    color:#BB0908;
+    font-family: 'Teko';
+    font-weight: 400;
+    font-size: 48px;
+    margin: 35px 0 15px 30px;
+}
+
+#banner{
+    grid-area: banner;
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 388px;
+    margin-right: 20px;
+    width: 1440px;
+}
+
+#left{
+    grid-area: left1;
+    background-color: #393939;
+    display:flex;
+    flex-direction: row;
+    border-top: #BB0908 solid 5px;
+    width: 700px;
+    margin: 24px 20px 24px 20px;
+}
+
+#left2{
+    grid-area: left1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 19px;
+}
+
+#left2 p{
+    font-family: 'Poppins';
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    width: 349px;
+}
+
+h2{
+    font-family: 'Rock Salt';
+    color: #FF1D29;
+    font-weight: 400;
+    margin: 8px 12px 7px 4px;
+    border-bottom: solid 4px #BB0908;
+    padding-bottom: 4px;
+    font-size: 30px;
+}
+
+#poster{
+    width: 310px;
+    margin: 0 0 2px 2px;
+}
+
+#price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 349px;
+    margin-bottom: 20px;
+}
+#purchase{
+    grid-area: left1;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 191px;
+    height:157px;
+}
+
+#price p:first-child{
+    font-family: 'Poppins';
+    color: #22C1CB;
+    font-weight: 18px;
+    text-decoration: underline;
+    margin-bottom: 27px;
+}
+
+#price p:last-child{
+    color: #FFFFFF;
+    width: 191px;
+    font-family: 'Teko';
+    font-size: 82px;
+    font-weight: 700;
+    line-height:103.18px;
+    text-decoration: underline 3px;
+    text-underline-offset: .5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+#dvd{
+    width: 117px;
+    height: 148px;
+    margin: 15px 22px 0 0;
+}
+
+#rightpennant{
+    grid-area: right1;
+    background-color: #393939;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    box-sizing: border-box;
+    border-top: #BB0908 solid 5px;
+    width: 700px;
+    margin: 23px 20px 25px 0;
+}
+
+#pennant{
+    width: 641px;
+    height: 229px;
+    margin: 19px 35px 19px 24px;
+}
+
+#rightpennant p{
+    color: #FFFFFF;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    display: inline;
+    margin: 0 0 19px 24px;
+}
+
+#rightsign{
+    grid-area:farr;
+    background-color: #393939;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width:360px;
+}
+#sign{
+    width: 325px;
+    margin: 0 18px 0 17px;
+}
+
+#righttext p{
+    color:#FFFFFF;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 400;
+    width: 275px;
+    line-height: 21.09px;
+    margin: 0 41px 24px 44px;
+}
+
+.color1{
+    font-weight: 700;
+    color:#FC0303;
+}
+
+.color2{
+    font-weight: 700;
+    color:#FF1D29;
+}
+
+#underwater{
+    width: 325px;
+    margin: 0 17px 28.48px 18px;
+}
+
+footer{
+    grid-area:foot;
+    background-color: #070707;
+    height:60px;
+    width: 1820px;
+}
+
+footer p{
+    color: #BCBCBC;
+    font-family: 'Teko';
+    font-weight: 400;
+    font-size: 12px;
+    margin: 21px 0 22px 30px;
+    width:200px;
+}
