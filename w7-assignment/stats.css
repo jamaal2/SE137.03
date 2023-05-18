@@ -13,7 +13,7 @@ html, body {
  
  h1 {
     font-size: 1.5em;
-    color: #333;
+    color: #334;
     margin: 0.5em;
  }
  
@@ -39,7 +39,7 @@ html, body {
  @media (max-width: 1920px) {
     th:first-child,
     th:last-child {
-        background-color: #333;
+        background-color: #334;
         color: #fff;
     }
  }
@@ -48,7 +48,7 @@ html, body {
     table {
         width: 100%;
     }
- 
+
     th:nth-child(3):after { content: 's1'; }
     th:nth-child(4):after { content: 's2'; }
     th:nth-child(5):after { content: 's3'; }
