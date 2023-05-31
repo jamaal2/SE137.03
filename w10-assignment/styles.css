@@ -1,6 +1,4 @@
-/* styles.css */
 
-/* Global styles */
 body {
     font-family: Arial, sans-serif;
   }
@@ -10,7 +8,7 @@ body {
     margin: 0 auto;
   }
   
-  /* Header styles */
+  /* Header */
   header {
     padding: 20px 0;
   }
@@ -20,7 +18,7 @@ body {
     font-size: 20px;
   }
   
-  /* Main section styles */
+  /* Main  */
   section {
     margin-top: 30px;
   }
@@ -66,13 +64,13 @@ body {
     margin-bottom: 10px;
   }
   
-  /* Footer styles */
+  /* Footer */
   footer {
     padding: 10px;
     background-color: #f8f9fa;
   }
   
-  /* Media queries */
+  /* Media  */
   @media (max-width: 767px) {
     h1 {
       font-size: 24px;
